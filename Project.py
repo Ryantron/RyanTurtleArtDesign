@@ -5,7 +5,7 @@ gabriel = turtle.Turtle()
 from random import randint
 from myshape import *
 turtle.colormode(255)
-#Name of Art: Creature of Surprise
+turtle.tracer(0)
 bob.speed(0)
 ryan.speed(0)
 gabriel.speed(0)
@@ -81,5 +81,6 @@ bob.left(90)
 bob.begin_fill()
 bob.end_fill()
 #The ovals form a barrier over the border.
+
 
 
